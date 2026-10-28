@@ -1,0 +1,36 @@
+# Reproducible simulation outputs (at any depth)
+results/
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local virtual environments and packaging output
+.venv/
+venv/
+env/
+*.egg-info/
+/build/
+/dist/
+
+# Machine-specific settings
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+
+# Operating-system and editor temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
